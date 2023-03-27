@@ -16,6 +16,7 @@
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden}>
 		<NavLi href="/" active={true}>Home</NavLi>
+		<NavLi href="/login">Login</NavLi>
 		<NavLi href="/transactions">Transactions Manager</NavLi>
 		<NavLi href="/dashboard">Dashboard</NavLi>
 	</NavUl>
